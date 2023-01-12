@@ -35,7 +35,7 @@ funding_average_period <- aggregate(modelled_annual_eu_payments~country+programm
 
 ## Plots
 
-PLOTS:
+PLOTS :
 
 ```{r pressure, echo=FALSE,message=FALSE,warning=FALSE}
 
