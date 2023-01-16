@@ -37,6 +37,7 @@ funding_average_period <- aggregate(modelled_annual_eu_payments~country+programm
 
 PLOTS:
 
+These are plots showing the distribution of EU funding from YEAR to YEAR. The data was taken from SOURCE.
 ```{r pressure, echo=FALSE,message=FALSE,warning=FALSE}
 
 ggplot(funding_average, aes(reorder(country,-modelled_annual_eu_payments),modelled_annual_eu_payments )) +
